@@ -1,6 +1,13 @@
 The canonical location of this project is now [gulp-community/gulp-header](https://github.com/gulp-community/gulp-header).
 
-# gulp-header [![NPM version](https://badge.fury.io/js/gulp-header.png)](http://badge.fury.io/js/gulp-header) [![Build Status](https://travis-ci.org/tracker1/gulp-header.svg?branch=master)](https://travis-ci.org/tracker1/gulp-header)
+# gulp-header
+
+[![npm version](https://img.shields.io/github/package-json/v/gulp-community/gulp-header)](https://www.npmjs.com/package/gulp-header)
+[![Actions Status](https://github.com/gulp-community/gulp-header/workflows/Tests/badge.svg)](https://github.com/gulp-community/gulp-header/actions)
+[![Code Coverage](https://img.shields.io/coveralls/github/gulp-community/gulp-header)](https://github.com/gulp-community/gulp-header)
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/gulp-header)](https://libraries.io/npm/gulp-header)
+![Github Issues](https://img.shields.io/github/issues/gulp-community/gulp-header?style=plastic) 
+[![MIT License](https://img.shields.io/github/license/gulp-community/gulp-header)](./LICENSE)
 
 gulp-header is a [Gulp](https://github.com/gulpjs/gulp) extension to add a header to file(s) in the pipeline.  [Gulp is a streaming build system](https://github.com/gulpjs/gulp) utilizing [node.js](http://nodejs.org/).
 

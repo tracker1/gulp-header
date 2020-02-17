@@ -19,8 +19,8 @@ module.exports = (headerText, data) => {
     // format template
     const filename = path.basename(file.path);
     const template =
-      data === false ?
-        headerText
+      data === false
+        ? headerText
         : lodashTemplate(headerText)(
             Object.assign({}, file.data || {}, { file: file, filename: filename }, data)
           );
@@ -78,14 +78,14 @@ module.exports = (headerText, data) => {
 /**
  * is stream?
  */
-const isStream = (obj) => {
+const isStream = obj => {
   return obj instanceof stream.Stream;
 };
 
 /**
  * Is File, and Exists
  */
-const isExistingFile = (file) => {
+const isExistingFile = file => {
   try {
     if (!(file && typeof file === 'object')) return false;
     if (file.isDirectory()) return false;
